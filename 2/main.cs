@@ -18,11 +18,11 @@ class Aula2 {
   }
 
   public static void Imprimir(Aluno aluno,
-                              Disciplina disciplina) {
+                             Disciplina disciplina) {
     if(Matricular(aluno, disciplina)) {
       Console.WriteLine(aluno.matricula);
     }
-  }
+ }
   
   public static void Main (string[] args) {
     
